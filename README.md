@@ -16,6 +16,7 @@ cd inspection-report-pdf/
 composer install
 cp .env.example .env
 php artisan key:generate
+php artisan migrate
 ```
 
 ## Running the Project
